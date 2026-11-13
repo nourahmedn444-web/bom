@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en" data-bs-theme-light>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar md:navbar-expand bg-danger">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="btn-icon navbar-toggler"
+          type="button"
+          data-bs-toggle="drawer"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon" aria-hidden="true"></span>
+        </button>
+        <dialog
+          class="drawer drawer-end"
+          tabindex="-1"
+          id="navbarNav"
+          aria-labelledby="navbarNavLabel"
+        >
+          <div class="drawer-header">
+            <h5 class="drawer-title" id="navbarNavLabel">Menu</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="drawer"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="drawer-body">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </dialog>
+      </div>
+    </nav>
+    <p id="demo">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et, doloremque,
+      error praesentium expedita aperiam quia vero natus ut quae distinctio,
+      tempora quasi accusamus. Ducimus fugiat ex quas? Ea aliquam, est facere
+      excepturi et saepe ad non amet nihil cupiditate quidem pariatur
+      consequatur autem velit dolore modi! Aperiam delectus quisquam dolore
+      voluptate adipisci quam vitae, quae saepe hic ipsam laborum fugit
+      necessitatibus eaque qui culpa quis illo excepturi suscipit nihil ad omnis
+      beatae sit officia porro! Id, quibusdam commodi? Facilis fugiat suscipit
+      expedita ad magni laudantium repudiandae, enim quibusdam. Nam ullam
+      dolore, molestiae ad nostrum in odit aliquid a eum sequi!
+    </p>
+<!-- ============================================= -->
+ <h3 id="nour">Lorem ipsum dolor sit amet consectetur.</h3>
+ <button onclick="clearInterval(mouse)">stop</button>
+ <button onclick="mouse=setInterval(myTimer,1000)">continue</button>
+ <!-- ================================================== -->
+  <h4 id="ahmed">Lorem ipsum dolor sit amet consectetur.</h4>
+  <button onclick="time=setTimeout(getData,1000)">click</button>
+  <button onclick="time=clearTimeout(time)">stop</button>
+  
+ 
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
